@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 500px;
+  border: solid 1px black;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+#geeks-logo {
+  width: 100px;
+  height: 100px;
+  background-image: url("https://assets.breatheco.de/apis/img/icon/4geeks.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.mid-left {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding-right: 50px;
+}
+
+.mid-right {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  margin-top: 15px;
+}
+
+#form1 {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+}
+input {
+  margin-bottom: 10px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#button {
+  background-color: #148fcb;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+}
