@@ -55,7 +55,9 @@ body {
   justify-items: flex-start;
 }
 input {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid black;
 }
 
 .bottom {
